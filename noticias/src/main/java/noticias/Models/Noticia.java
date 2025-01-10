@@ -14,46 +14,41 @@ public class Noticia {
     private String fechaPublicacion;
     private String fotoNoticia;
     private Integer idAutor;
+    private String nombre;
+    private String foto;
     private Integer idCategoria;
+    private String categoria;
 
-    public Integer getId_noticia() {
-        return Id_noticia;
+    public String getCategoria() {
+        return categoria;
     }
 
-    public void setId_noticia(Integer id_noticia) {
-        Id_noticia = id_noticia;
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
 
-    public String getTitulo() {
-        return titulo;
+    public Integer getIdCategoria() {
+        return idCategoria;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public void setIdCategoria(Integer idCategoria) {
+        this.idCategoria = idCategoria;
     }
 
-    public String getCuerpo() {
-        return cuerpo;
+    public String getFoto() {
+        return foto;
     }
 
-    public void setCuerpo(String cuerpo) {
-        this.cuerpo = cuerpo;
+    public void setFoto(String foto) {
+        this.foto = foto;
     }
 
-    public String getFechaPublicacion() {
-        return fechaPublicacion;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setFechaPublicacion(String fechaPublicacion) {
-        this.fechaPublicacion = fechaPublicacion;
-    }
-
-    public String getFotoNoticia() {
-        return fotoNoticia;
-    }
-
-    public void setFotoNoticia(String fotoNoticia) {
-        this.fotoNoticia = fotoNoticia;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public Integer getIdAutor() {
@@ -64,11 +59,43 @@ public class Noticia {
         this.idAutor = idAutor;
     }
 
-    public Integer getIdCategoria() {
-        return idCategoria;
+    public String getFotoNoticia() {
+        return fotoNoticia;
     }
 
-    public void setIdCategoria(Integer idCategoria) {
-        this.idCategoria = idCategoria;
+    public void setFotoNoticia(String fotoNoticia) {
+        this.fotoNoticia = fotoNoticia;
+    }
+
+    public String getFechaPublicacion() {
+        return fechaPublicacion;
+    }
+
+    public void setFechaPublicacion(String fechaPublicacion) {
+        this.fechaPublicacion = fechaPublicacion;
+    }
+
+    public String getCuerpo() {
+        return cuerpo;
+    }
+
+    public void setCuerpo(String cuerpo) {
+        this.cuerpo = cuerpo;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public Integer getId_noticia() {
+        return Id_noticia;
+    }
+
+    public void setId_noticia(Integer id_noticia) {
+        Id_noticia = id_noticia;
     }
 }

@@ -21,7 +21,10 @@ public class NoticiaService {
             noticia.setFechaPublicacion(rs.getString("FechaPublicacion"));
             noticia.setFotoNoticia(rs.getString("FotoNoticia"));
             noticia.setIdAutor(rs.getInt("IdAutor"));
+            noticia.setNombre(rs.getString("Nombre"));
+            noticia.setFoto(rs.getString("Foto"));
             noticia.setIdCategoria(rs.getInt("IdCategoria"));
+            noticia.setCategoria(rs.getString("Categoria"));
             return noticia;
         });
     }
@@ -38,7 +41,10 @@ public class NoticiaService {
             noticia.setFechaPublicacion(rs.getString("FechaPublicacion"));
             noticia.setFotoNoticia(rs.getString("FotoNoticia"));
             noticia.setIdAutor(rs.getInt("IdAutor"));
+            noticia.setNombre(rs.getString("Nombre"));
+            noticia.setFoto(rs.getString("Foto"));
             noticia.setIdCategoria(rs.getInt("IdCategoria"));
+            noticia.setCategoria(rs.getString("Categoria"));
             return noticia;
         });
     }
